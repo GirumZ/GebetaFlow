@@ -4,7 +4,7 @@ from django.db import models
 
 class Ingredient(models.Model):
     name = models.CharField(max_length=50)
-    quantity_in_stock = models.DecimalField(max_digits=6, decimal_places=2)
+    quantity_in_stock = models.DecimalField(max_digits=10, decimal_places=2)
     unit = models.CharField(max_length=20)
 
     def __str__(self):
