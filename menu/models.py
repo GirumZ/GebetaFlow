@@ -40,3 +40,6 @@ class MenuItemIngredient(models.Model):
     menu_item = models.ForeignKey(MenuItem, on_delete=models.CASCADE)
     ingredient = models.ForeignKey(Ingredient, on_delete=models.CASCADE)
     quantity_required = models.DecimalField(max_digits=6, decimal_places=2)
+
+    def __str__(self):
+        return(self.menu_item.name + "-" + self.ingredient.name)
