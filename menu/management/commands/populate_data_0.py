@@ -114,10 +114,8 @@ class Command(BaseCommand):
         MenuItem.objects.create(name="Chicken Tikka", price=15.49, description="Indian spiced chicken with naan bread.", section=international_section, category=main_course)
         MenuItem.objects.create(name="Pad Thai", price=13.99, description="Thai rice noodles with shrimp.", section=international_section, category=main_course)
         MenuItem.objects.create(name="Gyro Plate", price=12.99, description="Greek gyro with pita and tzatziki.", section=international_section, category=main_course)
-        MenuItem.objects.create(name="Beef Tacos", price=10.99, description="Mexican-style beef tacos.", section=international_section, category=main_course)
         MenuItem.objects.create(name="Sushi Platter", price=19.99, description="Japanese sushi assortment.", section=international_section, category=main_course)
         MenuItem.objects.create(name="Chicken Shawarma", price=14.99, description="Middle Eastern wrap with pickled veggies.", section=international_section, category=main_course)
-        MenuItem.objects.create(name="Falafel Wrap", price=9.99, description="Middle Eastern wrap with falafel.", section=international_section, category=main_course)
         MenuItem.objects.create(name="Banh Mi", price=11.49, description="Vietnamese sandwich with pork and pickled veggies.", section=international_section, category=main_course)
         MenuItem.objects.create(name="Paella", price=18.99, description="Spanish rice with seafood and sausage.", section=international_section, category=main_course)
 
