@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+        }
+        .item-list{
+            font-size: 20px;
+        }
+        .item-description{
+            font-size: 16px;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        {% for item in items %}
+            <li class="item-list">{{ item.name}} -------------- ${{ item.price }} -------------- ({{ item.id }}) <br> <span class="item-description">{{ item.description }}</span> <br>
+                <ul>
+                    {% for ingredient in item.menuitemingredient_set.all %}
+                        <li>{{ ingredient }}</li>
+                    {% empty %}
+                        <li>No Inredient found</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% empty %}
+            <li> No items in the menu</li>
+        {% endfor %}
+    </0l>
+</body>
+</html>
