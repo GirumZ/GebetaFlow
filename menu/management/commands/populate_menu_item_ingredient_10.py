@@ -61,7 +61,7 @@ class Command(BaseCommand):
             ],
             "Grilled Shrimp Kabobs": [
                 {"ingredient_name": "Shrimp", "quantity_required": 200.00},
-                {"ingredient_name": "Bell-Peppers", "quantity_required": 100.00},
+                {"ingredient_name": "Bell-Peppers-Red", "quantity_required": 100.00},
                 {"ingredient_name": "Onions", "quantity_required": 100.00},
                 {"ingredient_name": "Olive-Oil-Light", "quantity_required": 10.00},
                 {"ingredient_name": "Garlic", "quantity_required": 5.00},
@@ -72,14 +72,14 @@ class Command(BaseCommand):
             "Grilled Sausages": [
                 {"ingredient_name": "Sausages", "quantity_required": 200.00},
                 {"ingredient_name": "Onions", "quantity_required": 100.00},
-                {"ingredient_name": "Bell-Peppers", "quantity_required": 100.00},
+                {"ingredient_name": "Bell-Peppers-Red", "quantity_required": 100.00},
                 {"ingredient_name": "Olive-Oil-Light", "quantity_required": 10.00},
                 {"ingredient_name": "Salt", "quantity_required": 2.00},
                 {"ingredient_name": "Black-Pepper", "quantity_required": 5.00},
             ],
             "Beef Skewers": [
                 {"ingredient_name": "Beef", "quantity_required": 200.00},
-                {"ingredient_name": "Bell-Peppers", "quantity_required": 100.00},
+                {"ingredient_name": "Bell-Peppers-Red", "quantity_required": 100.00},
                 {"ingredient_name": "Onions", "quantity_required": 100.00},
                 {"ingredient_name": "Olive-Oil-Light", "quantity_required": 10.00},
                 {"ingredient_name": "Garlic", "quantity_required": 5.00},

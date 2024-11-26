@@ -19,7 +19,7 @@ class Command(BaseCommand):
             ],
             "Chicken Tacos": [
                 {"ingredient_name": "Chicken-Breast", "quantity_required": 200.00},
-                {"ingredient_name": "Bell-Peppers", "quantity_required": 100.00},
+                {"ingredient_name": "Bell-Peppers-Red", "quantity_required": 100.00},
                 {"ingredient_name": "Onions", "quantity_required": 100.00},
                 {"ingredient_name": "Tortillas", "quantity_required": 4},
                 {"ingredient_name": "Olive-Oil-Light", "quantity_required": 10.00},
@@ -61,7 +61,7 @@ class Command(BaseCommand):
                 {"ingredient_name": "Tortillas", "quantity_required": 2},
                 {"ingredient_name": "Chicken-Breast", "quantity_required": 200.00},
                 {"ingredient_name": "Cheddar-Cheese", "quantity_required": 100.00},
-                {"ingredient_name": "Bell-Peppers", "quantity_required": 50.00},
+                {"ingredient_name": "Bell-Peppers-Red", "quantity_required": 50.00},
                 {"ingredient_name": "Onions", "quantity_required": 50.00},
                 {"ingredient_name": "Olive-Oil-Light", "quantity_required": 10.00},
                 {"ingredient_name": "Salt", "quantity_required": 2.00},

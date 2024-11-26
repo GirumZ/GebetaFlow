@@ -24,7 +24,7 @@ class Command(BaseCommand):
             "Sea Bass with Lemon Caper Sauce": [
                 {"ingredient_name": "White-Fish", "quantity_required": 200.00},
                 {"ingredient_name": "Lemon-Juice", "quantity_required": 20.00},
-                {"ingredient_name": "Butter", "quantity_required": 50.00},
+                {"ingredient_name": "Butter-Salted", "quantity_required": 50.00},
                 {"ingredient_name": "Garlic", "quantity_required": 5.00},
                 {"ingredient_name": "Olive-Oil-Light", "quantity_required": 10.00},
                 {"ingredient_name": "Salt", "quantity_required": 2.00},
