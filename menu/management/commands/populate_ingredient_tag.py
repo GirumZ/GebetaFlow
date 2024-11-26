@@ -31,3 +31,4 @@ class Command(BaseCommand):
 
         IngredientTag.objects.bulk_create(ingredient_tags)
         self.stdout.write(self.style.SUCCESS("IngredientTag data populated successfully using bulk_create!"))
+        

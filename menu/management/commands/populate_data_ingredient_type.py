@@ -20,5 +20,4 @@ class Command(BaseCommand):
         ]
 
         IngredientType.objects.bulk_create(ingredient_types)
-
         self.stdout.write(self.style.SUCCESS("IngredientType data populated successfully using bulk_create!"))
