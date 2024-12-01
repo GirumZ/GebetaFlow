@@ -5,7 +5,7 @@ class Command(BaseCommand):
     help = 'Runs all populate_menu_item_ingredient commands in sequence'
 
     def handle(self, *args, **kwargs):
-        for i in range(12):
+        for i in range(13):
             try:
                 call_command(f'populate_menu_item_ingredient_{i}')
                 self.stdout.write(self.style.SUCCESS(f'Successfully ran populate_menu_item_ingredient_{i}'))
